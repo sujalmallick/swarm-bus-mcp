@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "swarm-bus": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/agy-swarm-bus/dist/index.js"],
+      "env": {
+        "SWARM_DB_PATH": "/ABSOLUTE/PATH/TO/YOUR/PROJECT/.antigravity/swarm.db",
+        "SWARM_LOCK_TTL_SECONDS": "300"
+      }
+    }
+  }
+}
